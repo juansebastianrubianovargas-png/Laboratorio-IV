@@ -1,0 +1,11 @@
+{
+  "name": "Laboratorio 4 - Negocio",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "forwardPorts": [5173],
+  "portsAttributes": {
+    "5173": { "label": "Papelería El Apunte", "onAutoForward": "openBrowser" },
+    "3001": { "label": "API interna", "onAutoForward": "ignore" }
+  },
+  "postCreateCommand": "npm ci",
+  "customizations": { "vscode": { "settings": { "editor.formatOnSave": true } } }
+}

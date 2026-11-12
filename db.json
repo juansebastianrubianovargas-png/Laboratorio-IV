@@ -1,0 +1,96 @@
+{
+  "productos": [
+    {
+      "nombre": "Cuaderno cuadriculado 100 hojas",
+      "categoria": "Cuadernos",
+      "precio": 850,
+      "proveedorId": 1,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Lapicero azul",
+      "categoria": "Escritura",
+      "precio": 1800,
+      "proveedorId": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Resma de papel carta",
+      "categoria": "Papel",
+      "precio": 22000,
+      "proveedorId": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Carpeta de cartón",
+      "categoria": "Archivo",
+      "precio": 2500,
+      "proveedorId": 2
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Cliente de ejemplo 1",
+      "correo": "cliente1@example.com",
+      "telefono": "3000000001"
+    },
+    {
+      "id": 2,
+      "nombre": "Cliente de ejemplo 2",
+      "correo": "cliente2@example.com",
+      "telefono": "3000000002"
+    }
+  ],
+  "proveedores": [
+    {
+      "id": 1,
+      "nombre": "Distribuidora Papel y Más",
+      "correo": "papel@example.com",
+      "telefono": "6010000001"
+    },
+    {
+      "id": 2,
+      "nombre": "Suministros Escolares",
+      "correo": "escolares@example.com",
+      "telefono": "6010000002"
+    }
+  ],
+  "compras": [
+    {
+      "id": 1,
+      "productoId": 1,
+      "proveedorId": 1,
+      "fecha": "2026-11-01",
+      "cantidad": 20,
+      "precioUnitario": 6000
+    },
+    {
+      "id": 2,
+      "productoId": 2,
+      "proveedorId": 2,
+      "fecha": "2026-11-02",
+      "cantidad": 50,
+      "precioUnitario": 1000
+    }
+  ],
+  "ventas": [
+    {
+      "id": 1,
+      "productoId": 1,
+      "clienteId": 1,
+      "fecha": "2026-11-03",
+      "cantidad": 2,
+      "precioUnitario": 8500
+    },
+    {
+      "id": 2,
+      "productoId": 2,
+      "clienteId": 2,
+      "fecha": "2026-11-03",
+      "cantidad": 5,
+      "precioUnitario": 1800
+    }
+  ]
+}
